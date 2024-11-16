@@ -1,0 +1,335 @@
+*{
+    text-decoration: none;
+}
+.navbar{
+    background: #15613E; font-family: calibri; padding-right: 15px;padding-left: 15px;
+    position: fixed;
+    height: 75px;
+    width: 1920px;
+    text-align: center;
+    z-index: 9999;
+}
+.navdiv{
+    display: flex; align-items: center; justify-content: space-between;
+}
+.logo a{
+    font-size: 35px; font-weight: 600; color: white;
+}
+li{
+    list-style: none; display: inline-block;
+}
+li a{
+    transition: 1s;
+    color: white; font-size: 18px; font-weight: bold; margin-right: 50px;
+    font-size: 18px;
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li a:hover {
+    transition: 1s;
+    color: #23c77b;
+}
+.navlogo {
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 23px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body, html {
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+.navdivlogo {
+    margin-bottom: 10px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Set body height to viewport height */
+    background-image: url('images/background-img.png'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the whole screen */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+}
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/background-img.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.5); /* Black overlay with 50% transparency */
+    mix-blend-mode: overlay; /* Combines overlay color with the image */
+    z-index: -1;
+}
+.navbar2{
+    background: #15613d91; font-family: calibri; padding-right: 15px;padding-left: 15px;
+    position: relative;
+    height: 300px;
+    width: 1920px;
+    text-align: center;
+    margin-top: 150px;
+    display: flex;
+}
+.about-text {
+    margin-bottom: 100px;
+    flex-direction: column;
+    font-size: 16px;
+    padding-right: 1000px;
+    line-height: 1.5;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-optical-sizing: 16px;
+    flex-grow: 1;
+    max-width: 100%;
+    width: auto;
+}
+.t1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 80px;
+    width: 1000px;
+}
+.t2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 1000px;
+}
+.t3 {
+    transition: 1s;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-top: 50px;
+    width: 1000px;
+    border-style: solid;
+    border-radius: 10px;
+    margin-left: 500px;
+}
+.t3:hover {
+    transition: 1s;
+    background-color: #15613E;
+}
+.t3:active {
+    transition: 0.3s;
+    background-color: #16814f;
+}
+.about-div {
+    display: flex; /* Use flexbox for layout */
+    align-items: flex-start; /* Align items at the top */
+    gap: 20px; /* Add space between image and text */
+    width: 1000px;
+}
+.about-img {
+    flex-shrink: 0; /* Prevent the image from shrinking */
+    width: 500px; /* Set image width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: add rounded corners */
+    margin-top: 75px;
+    margin-left: 30px;
+}
+.navbar3{
+    background: #15613d; font-family: calibri; padding-right: 15px;padding-left: 15px;
+    position: relative;
+    height: 230px;
+    width: 1920px;
+    text-align: center;
+    margin-top: 270px;
+    display: flex;
+}
+.shift-img {
+    flex-shrink: 0; /* Prevent the image from shrinking */
+    width: 600px; /* Set image width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: add rounded corners */
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.shift-div {
+    display: flex; /* Use flexbox for layout */
+    align-items: flex-start; /* Align items at the top */
+    gap: 20px; /* Add space between image and text */
+    max-width: 12000px; /* Optional: restrict width for better layout */
+}
+.st1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 80px;
+    font-size: 30px;
+    width: 1200px;
+    font-weight: bold;
+}
+.st2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 30px;
+    font-size: 20px;
+    width: 1200px;
+}
+.st3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    width: 1200px;
+}
+.navbar4{
+    background: #15613d91; font-family: calibri; padding-right: 15px;padding-left: 15px;
+    position: relative;
+    height: 150px;
+    width: 1920px;
+    text-align: center;
+    margin-top: 120px;
+    display: flex;
+}
+.social-img {
+    flex-shrink: 0; /* Prevent the image from shrinking */
+    width: 600px; /* Set image width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: add rounded corners */
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.social-div {
+    display: flex; /* Use flexbox for layout */
+    align-items: flex-start; /* Align items at the top */
+    gap: 20px; /* Add space between image and text */
+    max-width: 12000px; /* Optional: restrict width for better layout */
+}
+.soc-t1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 25px;
+    font-size: 50px;
+    width: 1200px;
+    font-weight: bold;
+    margin-left: 150px;
+}
+.robloxgr {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: inherit;
+    color: white; font-size: 18px; font-weight: bold; margin-right: 50px;
+    font-size: 25px;
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 250px;
+    border-style: solid;
+    border-radius: 10px;
+}
+.robloxga {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: inherit;
+    color: white; font-size: 18px; font-weight: bold; margin-right: 50px;
+    font-size: 25px;
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 250px;
+    border-style: solid;
+    border-radius: 10px;
+}
+.discord {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: inherit;
+    color: white; font-size: 18px; font-weight: bold; margin-right: 50px;
+    font-size: 25px;
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 250px;
+    border-style: solid;
+    border-radius: 10px;
+}
+.youtube {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: inherit;
+    color: white; font-size: 18px; font-weight: bold; margin-right: 50px;
+    font-size: 25px;
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 250px;
+    border-style: solid;
+    border-radius: 10px;
+}
+.social-text {
+    margin-left: 125px;
+}
+.part-img1 {
+    width: 35px;
+    height: auto;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+.part-img2 {
+    width: 35px;
+    height: auto;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+.part-img3 {
+    width: 35px;
+    height: auto;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+.part-div-img {
+    margin-left: 1500px;
+    margin-top: 5px;
+}
+.pt1 {
+    margin-left: 1550px;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.336);
+}
+.part-text-1 {
+    margin-left: 1550px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.336);
+}
+.part-text-2 {
+    margin-right: 1580px;
+    color: rgba(0, 0, 0, 0.336);
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+.acasa {
+    color: white;
+}
+.navigare {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.329);
+}
+.job {
+    color: white;
+}
+.contact {
+    color: white;
+}
+.ctp-logo {
+    height: 30px;
+    width: auto;
+    margin-top: 23px;
+    margin-right: 10px;
+}
+.navlogo {
+    float: right;
+}
